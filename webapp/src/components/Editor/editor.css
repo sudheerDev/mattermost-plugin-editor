@@ -1,0 +1,96 @@
+.editor {
+    height: calc(100% - 100px);
+}
+
+.CodeMirror {
+    height: calc(100% - 65px);
+    width: 100%;
+}
+
+.viewOptions {
+    float: left;
+    border: none;
+}
+
+.viewOptions .btn-link, .viewOptions span {
+    display: inline-block;
+    line-height: 35px;
+    width: 100px;
+    text-align: center;
+    padding: 6px 12px;
+    vertical-align: baseline;
+}
+
+.CodeMirror-scroll {
+    height: 100%;
+}
+
+.CodeMirror-sizer {
+    min-height: 100% !important;
+}
+
+.editor-header {
+    padding: 1em;
+    background: rgb(17, 83, 171);
+    color: rgb(255, 255, 255);
+    .close {
+        color: rgb(255, 255, 255);
+        opacity: 0.8;
+    }
+}
+
+.editor-toolbar {
+    opacity: 0.8;
+    padding: 0 5px;
+    float: right;
+    border: none;
+}
+
+.editor-toolbar a {
+    width: 45px;
+    height: 50px;
+    margin: 0;
+    border: none;
+    line-height: 50px;
+}
+
+.editor-toolbar a:hover {
+    border: none;
+    color: rgb(35, 137, 215) !important;
+}
+
+.editor-toolbar:before {
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.editor-toolbar:after {
+    height: 0px;
+    margin: 0px;
+}
+
+.editor-toolbar.fullscreen {
+    padding: 0px 10px;
+}
+
+.editor-statusbar {
+    text-align: left;
+    padding: 8px 15px;
+}
+
+.editor-statusbar span {
+    margin-right: 1em;
+    margin-left: 0;
+}
+
+.editor-statusbar .autosave {
+    display: none;
+}
+
+.save-button {
+    margin-right: 10px;
+}
+
+.editor-toolbar a.fa-header-bigger:after, .editor-toolbar a.fa-header-smaller:after {
+    vertical-align: top;
+}
